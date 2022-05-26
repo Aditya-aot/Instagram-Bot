@@ -15,7 +15,7 @@ while True :
 
     a=a+1
     #################### api code ###############################
-    #################### api code ###############################
+    ################## api code ##################################
     url = "https://facts-by-api-ninjas.p.rapidapi.com/v1/facts"
 
     headers = {
@@ -61,7 +61,7 @@ while True :
     os.remove(cookie_del[0])
 
     bot = Bot()
-    bot.login(username='the_tips_the',password='uk123uk')
+    bot.login(username='',password='')
 
     bot.upload_photo('fact_'+str(a)+'.jpg', caption=raw_data+"  #explore #instafact #factz #corona #generalknowledge #fact #factsdaily #didyouknow #truefacts #knowledge #knowledgeable #gyan #theuntoldfact #doyouknow #dailyfact #mindblowing #knowledgebygooogle #factbyscience #interestingfacts #knowledgeispower #know #mindblown")
 
